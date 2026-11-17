@@ -9,6 +9,12 @@ venv/
 env/
 ENV/
 
+# Local credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+
 # Packaging and build artifacts
 build/
 dist/
@@ -41,3 +47,8 @@ coverage.xml
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Local datasets and trained models
+data/**
+!data/README.md
+models/
