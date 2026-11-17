@@ -1,4 +1,4 @@
- # Python bytecode and cache files
+# Python bytecode and cache files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,7 +9,7 @@ venv/
 env/
 ENV/
 
-# Local credentials
+# Local credentials and environment files
 .env
 .env.*
 !.env.example
@@ -36,11 +36,6 @@ coverage.xml
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Environment variables and local settings
-.env
-.env.*
-!.env.example
 
 # Editor and OS files
 .idea/
